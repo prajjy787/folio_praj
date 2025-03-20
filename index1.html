@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prajwal - Portfolio</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+
+    <style>
+        .phone-screen {
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            width: 100%;
+            height: 100%;
+        }
+
+        .phone-screen img {
+            max-width: 100%; /* Ensure the image doesn't overflow */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Center the image */
+        }
+    </style>
+
+</head>
+
+<body>
+ 
+    <div class="theme-section">
+        <button id="theme-toggle">
+          <i class="fas fa-moon"></i> <!-- Default icon for light mode -->
+        </button>
+      </div>
+ 
+    <!-- Sticky Indicators -->
+   <!-- Sticky Indicators -->
+   <div class="sticky-indicators">
+    <ul>
+        <li><a href="#home" class="active"><i class="fas fa-home"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="fas fa-user"></i><span>About</span></a></li>
+        <li><a href="#education"><i class="fas fa-graduation-cap"></i><span>Education</span></a></li>
+        <li><a href="#portfolio"><i class="fas fa-briefcase"></i><span>projects</span></a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i><span>Contact</span></a></li>
+    </ul>
+</div>
+
+    <div>
+        <nav class="mobile-sticky-indicators">
+            <ul>
+                <!-- Copy your existing indicators here, with the same structure -->
+                <li><a href="#home" class="active"><i class="fas fa-home"></i><span>Home</span></a></li>
+                <li><a href="#about"><i class="fas fa-user"></i><span>About</span></a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i><span>Education</span></a></li>
+                <li><a href="#portfolio"><i class="fas fa-briefcase"></i><span>projects</span></a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i><span>Contact</span></a></li>
+                <!-- Add all your sections here with the same icons you use in desktop view -->
+            </ul>
+        </nav>
+    </div>
+<section id="home" class="hero">
+
+
+    <i class="coder-icon fab fa-react" title="React" style="color: #61dafb; font-size: 2rem; opacity: 0.3;"></i>
+    <i class="coder-icon fab fa-js-square" title="JavaScript" style="color: #f7df1e; font-size: 2rem; opacity: 0.3;"></i>
+    <i class="coder-icon fab fa-java" title="Java" style="color: #007396; font-size: 2rem; opacity: 0.3;"></i>
+    <i class="coder-icon fab fa-microsoft" title="C#" style="color: #68217a; font-size: 2rem; opacity: 0.3;"></i>
+    <i class="coder-icon fab fa-html5" title="HTML5" style="color: #e34f26; font-size: 2rem; opacity: 0.3;"></i>
+    <i class="coder-icon fab fa-css3-alt" title="CSS3" style="color: #264de4; font-size: 2rem; opacity: 0.3;"></i>
+    <i class="coder-icon fab fa-git-alt" title="Git" style="color: #f05032; font-size: 2rem; opacity: 0.3;"></i>
+    <i class="coder-icon fab fa-node-js" title="Node.js" style="color: #68a063; font-size: 2rem; opacity: 0.3;"></i>
+    <i class="coder-icon fab fa-database" title="Database" style="color: #00758f; font-size: 2rem; opacity: 0.3;"></i>
+    <i class="coder-icon fab fa-android" title="Android" style="color: #3ddc84; font-size: 2rem; opacity: 0.3;"></i>
+
+    <i class="coder-icon fab fa-react" title="React" style="color: #61dafb; font-size: 2rem; opacity: 0.3;"></i>
+    <i class="coder-icon fab fa-java" title="Java" style="color: #007396; font-size: 2rem; opacity: 0.3;"></i>
+    <i class="coder-icon fab fa-microsoft" title="C#" style="color: #68217a; font-size: 2rem; opacity: 0.3;"></i>
+    <i class="coder-icon fab fa-android" title="Android" style="color: #3ddc84; font-size: 2rem; opacity: 0.3;"></i>
+
+    <div class="hero-content">
+        <div class="text-group">
+            <h1 class="hello-text"></h1>
+            <p class="hello2-text"></p>
+
+            <h2 class="name">I'm Prajwal</h2>
+            <p class="desc"></p>
+            <div class="cta-container">
+                <a href="#portfolio" class="cta-btn">View Work</a>
+                <a href="Resume_prajwal.pdf" class="cta-btn outline" target="_blank">Preview Resume</a>            </div>
+        </div>
+        <div class="profile-container">
+            <div class="profile-mask">
+                <img src="profile.png" alt="Prajwal" class="profile-img">
+           
+        </div>
+    </div>
+</section>
+
+        <!-- Let Me Introduce Myself -->
+        <section id="about" class="about">
+            <div class="about-content">
+                <div class="bio-content">
+                    <h2 class="section-title fade-up">A little About Me:</h2>
+                    <br>
+                    <p class="bio-text fade-up">
+                        
+Dedicated and detail-oriented IT student with a good knowledge of application development, software lifecycle, architecture, Java, C++, and web technologies. Enthusiastic about applying technical skills in a dynamic workplace, while also seeking to enhance expertise through practical experience. Passionate in utilizing technical proficiency to enhance creativity and efficiency in the IT sector Dedicated and detail-oriented IT student with a good knowledge of application development, software lifecycle, architecture, Java, C++, and web technologies. Enthusiastic about applying technical skills in a dynamic workplace, while also seeking to enhance expertise through practical experience. Passionate in utilizing technical proficiency to enhance creativity and efficiency in the IT sector 
+
+                    </p>
+                    
+                    
+                   
+                </div>
+        
+                <div class="bio-visual">
+                    <div class="bio-shape"></div>
+                    <img src="bla bla bla.jpg" alt="Coding illustration" class="bio-image" style="border-radius: 60px; box-shadow: 0 6px 10px rgba(0, 0, 0, 0.05); width: 150%; max-width: 350px; animation: float 2s ease-in-out infinite;">
+                </div>
+            </div>
+        </section>
+
+     <!-- Education & Skills Section -->
+
+
+           <!-- Education & Skills Section -->
+<section id="education" class="education-skills-section">
+    <div class="container">
+        <h2 class="section-title fade-up">Education & Expertise</h2>
+        <br>
+        
+        <div class="content-wrapper">
+            <!-- Left Side: Education -->
+            <div class="education-container">
+                <h3 class="subsection-title">Educational Journey</h3>
+                
+                <div class="education-timeline">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4 class="degree">Bachelor of Information Technology(Mobile Application Development)</h4>
+                            <div class="education-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-university"></i>
+                                    <span> Academy of Interactive Technology</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span>2022 - present</span>
+                                </div>
+                            </div>
+                            <p class="education-description">Studying software development with specialization in mobile application development.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4 class="degree"> primary/Higher Secondary School</h4>
+                            <div class="education-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-certificate"></i>
+                                    <span> Little flower school</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span>2005 - 2021</span>
+                                </div>
+                            </div>
+                            <p class="education-description">Started my journey schooling all the way to building the foundation in computer science.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Side: Skills -->
+            <div class="skills-container">
+                <h3 class="subsection-title">Core Skills</h3>
+                
+                <div class="skills-grid">
+                    <!-- Skill Category 1 -->
+                    <div class="skill-category">
+                        
+                        <div class="skill-tags">
+                            <div class="skill-tag advanced">React.js</div>
+                            <div class="skill-tag advanced">JavaScript/ES6+</div>
+                            <div class="skill-tag expert">HTML5/CSS3</div>
+                            <div class="skill-tag intermediate">java</div>
+                            <div class="skill-tag advanced">Responsive Design</div>
+                            <div class="skill-tag intermediate">TypeScript</div>
+                            <div class="skill-tag intermediate">c#</div>
+                            <div class="skill-tag beginner">c++</div>
+                            <div class="skill-tag beginner">project management</div>
+
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+   <!-- projects portfolio-->
+   <section id="portfolio" class="portfolio-section">
+    <h2 class="section-title">My Projects</h2>
+    <div class="portfolio-container">
+        <!-- Project Card 1 -->
+        <article class="project-card" data-project="1">
+            <div class="project-content">
+                <h3 class="project-title">-Enterprise system ( C# - asp.net )</h3>
+                <ul class="project-description">
+                    <li>Developed a cloud-based Library Management System utilizing the MVC architecture.</li>
+                    <li>Built comprehensive CRUD operations for effective book inventory and user administration.</li>
+                    <li>Integrated server-side and client-side capabilities, facilitating smooth database interactions and a scalable architecture.</li>
+                </ul>
+                <div class="project-tech">
+                    <span>c#</span>
+                    <span>asp.net</span>
+                    <span>.netcore framework</span>
+                    <span>sql server</span>
+                    <span>xml</span>
+                </div>
+                <a href="https://github.com/prajjy787/Library-Mgmt-System" class="view-project">
+                    <span>View Project</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <div class="phones-container">
+                <div class="phone phone-left">
+                    <div class="phone-screen">
+                        <img src="lib mgmt 2.png" alt="Project screenshot" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+                    </div>
+                </div>
+
+                
+                <div class="phone phone-right">
+                    <div class="phone-screen">
+                        <img src="lib mgmt system 1.png" alt="Project screenshot" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Project Card 2 -->
+        <article class="project-card" data-project="2">
+            <div class="project-content">
+                <h3 class="project-title">Mobile Application Android ( Java - jetpack )</h3>
+
+                
+                <ul class="project-description">
+                    <li>Created a Weather Application that incorporates real-time API data for precise weather forecasts. (MVC - CRUD)</li>
+                    <li>Deployed geolocation services, enabling users to obtain location-specific weather information.</li>
+                </ul>
+                <div class="project-tech">
+                    <span>java</span>
+                    <span>jetpack</span>
+                    <span>sqlite</span>
+                    <span>json</span>
+                </div>
+                <a href="https://github.com/prajjy787/Skypulse" class="view-project">
+                    <span>View Project</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <div class="phones-container">
+                <div class="phone phone-left">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen">
+                        <img src="mobile 1.png" alt="Project screenshot" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+                    </div>
+                </div>
+                <div class="phone phone-right">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen">
+                        <img src="welcome_screen pixel7pro.png" alt="Project screenshot" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+
+        <!-- Project Card 3   /* this is the project card 3.1 */ -->
+
+
+        <article class="project-card" data-project="4">
+            <div class="project-content">
+                <h3 class="project-title">Cinevibe (Dynamic website) </h3>
+                <p class="project-description">
+                    <ul>
+                        <li>completely renponsive website for a movie streaming.</li>
+                    </ul> </p>
+                    <div class="project-tech">
+                    <span>Bootstrap</span>
+                    <span>xampp</span>
+                    <span> php </span>
+                    <span> ajax </span>
+                    <span> mysql </span>
+                </div>
+                <a href="#https://github.com/prajjy787/Cinevibe-Movie-website." class="view-project">
+                    <span>View Project</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <div class="phones-container">
+                <div class="phone phone-left">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen">
+                        <img src="proj mgmt 1.png" alt="Project screenshot" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+                    </div>
+                </div>
+                <div class="phone phone-right">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen">
+                        <img src="proj mgmt 2 .png" alt="Project screenshot" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+                    </div>
+                </div>
+            </div>
+        </article>
+
+
+        <!-- Project Card 4 -->
+        <article class="project-card" data-project="4">
+            <div class="project-content">
+                <h3 class="project-title">Digital project management</h3>
+                <p class="project-description">
+                    <ul>
+                        <li>Led the development of a perpetual racing car game in Unity</li>
+                        <li>Successfully managed the project timeline and team collaboration</li>
+                    </ul> </p>
+
+                    <div class="project-tech">
+                    <span>unity</span>
+                    <span>c#</span>
+                    <span>Blender</span>
+                </div>
+                <a href="https://github.com/prajjy787/Highway-havok" class="view-project">
+                    <span>View Project</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <div class="phones-container">
+                <div class="phone phone-left">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen">
+                        <img src="game 1.png" alt="Project screenshot" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+                    </div>
+                </div>
+                <div class="phone phone-right">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen">
+                        <img src="game -2.png" alt="Project screenshot" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+                    </div>
+                </div>
+            </div>
+        </article>
+
+
+
+
+
+        <!-- Project Card 5 
+        <article class="project-card" data-project="5">
+            <div class="project-content">
+                <h3 class="project-title">Smart Home Control System</h3>
+                <p class="project-description">IoT-powered smart home solution with voice control, energy monitoring, and automated routines for lighting, climate, and security.</p>
+                <div class="project-tech">
+                    <span>Flutter</span>
+                    <span>Go</span>
+                    <span>MQTT</span>
+                    <span>Raspberry Pi</span>
+                    <span>TensorFlow Lite</span>
+                </div>
+                <a href="#" class="view-project">
+                    <span>View Project</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <div class="phones-container">
+                <div class="phone phone-left">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen">
+                        <img src="https://via.placeholder.com/250x500" alt="Project screenshot">
+                    </div>
+                </div>
+                <div class="phone phone-right">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen">
+                        <img src="https://picsum.photos/250/500" alt="Project screenshot">
+                    </div>
+                </div>
+            </div>
+        </article>
+
+
+        
+    </div>
+</section>
+
+
+
+
+
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="text-center mb-5">Contact Me</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="contact-info">
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>Email: prajwalpo787@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>Phone: +61-452154959</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Smooth Scroll and Sticky Indicators Script -->
+    <script src="script.js"></script>
+<script>
+           
+
+
+        // Smooth scrolling
+        document.querySelectorAll('.sticky-indicators a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                if (this.getAttribute('href').startsWith('#')) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    targetSection.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Sticky indicators highlight on scroll
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section');
+            const indicators = document.querySelectorAll('.sticky-indicators a');
+
+            sections.forEach((section, index) => {
+                const rect = section.getBoundingClientRect();
+                if (rect.top <= 100 && rect.bottom >= 100) {
+                    indicators.forEach(indicator => indicator.classList.remove('active'));
+                    indicators[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+<!-- Footer -->
+<footer class="footer bg-dark text-white text-center py-4">
+    <div class="container">
+        <p class="mb-2">&copy; 2025 Prajwal Poudel. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/prajwal-poudel-b1a34a2b9/" target="_blank" class="text-white mx-2"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/prajjy787" target="_blank" class="text-white mx-2"><i class="fab fa-github"></i></a>
+            <a href="mailto:prajwalpo787@gmail.com" class="text-white mx-2"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+</footer>
+</html>
